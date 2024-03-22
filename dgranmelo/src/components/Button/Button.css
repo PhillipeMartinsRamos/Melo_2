@@ -2,12 +2,12 @@
 
 .button-standard {
     font-weight: 600;
-    padding: 16px 38px;
-    border-radius: 15px;
+    padding: 1rem 2.3rem;
+    border-radius: 1rem;
     background-color: var(--primary-color);
     border: solid #000 2px;
     text-transform: lowercase;
-    font-size: 17px;
+    font-size: 1rem;
     transition: all 0.2s ease;
     /* box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); */
     cursor: pointer;
@@ -17,4 +17,19 @@
     transform: scale(105%);
     transition: all 0.2s ease;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 430px) {
+    .button-standard {
+        font-weight: 600;
+        padding: 0.7rem 1.3rem;
+        border-radius: 0.7rem;
+        background-color: var(--primary-color);
+        border: solid #000 2px;
+        text-transform: lowercase;
+        font-size: 0.85rem;
+        transition: all 0.2s ease;
+        /* box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); */
+        cursor: pointer;
+    }
 }
