@@ -1,0 +1,20 @@
+@import "../Styles/variables.css";
+
+.button-standard {
+    font-weight: 600;
+    padding: 16px 38px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    border: solid #000 2px;
+    text-transform: lowercase;
+    font-size: 17px;
+    transition: all 0.2s ease;
+    /* box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); */
+    cursor: pointer;
+}
+
+.button-standard:hover {
+    transform: scale(105%);
+    transition: all 0.2s ease;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
